@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luccas First Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">Luccas First Website</p>
+        <h1>Learn web basics while practicing Codex and GitHub.</h1>
+        <p class="hero-copy">
+          This mini project is intentionally simple: one HTML file, one CSS file,
+          and one JavaScript file. That makes it easy to understand what changes
+          Codex makes and easy to track them in GitHub.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#roadmap">Start the roadmap</a>
+          <button class="button secondary" id="theme-toggle" type="button">
+            Switch mood
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section class="card intro-grid">
+          <div>
+            <h2>How this project is set up</h2>
+            <p>
+              You are looking at a static website. That means you can open
+              <code>index.html</code> directly in a browser and it will work
+              without installing anything.
+            </p>
+          </div>
+          <ul class="checklist">
+            <li><strong>HTML</strong> gives the page structure.</li>
+            <li><strong>CSS</strong> controls the look and layout.</li>
+            <li><strong>JavaScript</strong> adds interaction.</li>
+          </ul>
+        </section>
+
+        <section class="card" id="roadmap">
+          <div class="section-heading">
+            <p class="eyebrow">Workflow</p>
+            <h2>A beginner-friendly Codex + GitHub loop</h2>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <span>1</span>
+              <h3>Ask Codex for a small change</h3>
+              <p>
+                Example: “Add a new section about my hobbies” or “Make the hero
+                background warmer and more playful.”
+              </p>
+            </article>
+            <article class="step">
+              <span>2</span>
+              <h3>Review what changed</h3>
+              <p>
+                Open the edited files and compare before committing. The goal is
+                to learn from the changes, not just accept them blindly.
+              </p>
+            </article>
+            <article class="step">
+              <span>3</span>
+              <h3>Commit to GitHub in small chunks</h3>
+              <p>
+                Make one commit per idea. That keeps your history readable and
+                makes mistakes easy to undo.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="section-heading">
+            <p class="eyebrow">Practice prompts</p>
+            <h2>Good beginner requests for Codex</h2>
+          </div>
+          <div class="prompt-list">
+            <button class="prompt-chip" type="button">
+              Add an About Me section with placeholder text
+            </button>
+            <button class="prompt-chip" type="button">
+              Turn the checklist into animated cards
+            </button>
+            <button class="prompt-chip" type="button">
+              Create a contact section with social links
+            </button>
+            <button class="prompt-chip" type="button">
+              Teach me what each part of styles.css does
+            </button>
+          </div>
+          <p class="helper-text" id="prompt-output">
+            Click a prompt to copy it into your next Codex request.
+          </p>
+        </section>
+
+        <section class="card two-column">
+          <div>
+            <div class="section-heading">
+              <p class="eyebrow">GitHub habits</p>
+              <h2>What efficient development looks like</h2>
+            </div>
+            <ul class="checklist">
+              <li>Commit often, but keep each commit focused.</li>
+              <li>Use clear commit messages like <code>Add hero section copy</code>.</li>
+              <li>Push your work regularly so GitHub becomes your backup.</li>
+              <li>Read diffs before you merge or share anything.</li>
+            </ul>
+          </div>
+          <div class="note-box">
+            <h3>Simple first goal</h3>
+            <p>
+              Customize this page until it feels like yours. Change the title,
+              colors, sections, and writing. Once you do that a few times, the
+              Codex workflow starts to feel natural.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
